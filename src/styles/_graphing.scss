@@ -1,0 +1,89 @@
+.page-header {
+	/*position: absolute;*/
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+	.svg {
+		width: 100%;
+
+		.axis path, .axis line {
+		    fill: none;
+		    stroke: 1px solid white;
+		    shape-rendering: crispEdges;
+			stroke-width: 2px
+		}
+
+		.axis.wcm-label {
+		    font-weight: bold;
+		    font-size: 12px;
+		}
+
+		.quadrant_border {
+			stroke: none;
+			fill: none;
+		}
+
+		.circle {
+			fill: orange;
+		}
+
+		.circle-hover {
+			fill: blue;
+			cursor: pointer;
+		}
+
+		.circle-selected {
+			fill: darkblue;
+		}
+
+		.wcm-label {
+			font-size: 12px;
+			font-weight: bold
+		}
+
+		.wcm-label-hover {
+			fill: blue;
+			cursor: pointer;
+		}
+
+		.wcm-label-selected {
+			fill: darkblue;
+		}
+
+		.divider {
+			stroke: white;
+			fill: none;
+			shape-rendering: crispEdges;
+			stroke-width: 2px
+		}
+
+.quad-label {
+	font-size: 20px;
+	font-weight: bold;
+	fill: lightGrey;
+}
+
+	}
+}
+
+
+.thumbnails {
+	margin-top: 10px;
+}
+
+.well {
+	padding: 0px;
+}
+
+.sidebar-inner {
+	padding: 20px;
+}
+
+img {
+	vertical-align: baseline;
+}
+

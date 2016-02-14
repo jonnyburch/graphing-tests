@@ -1,0 +1,61 @@
+* {
+  font-size: 10px; }
+
+.page-header {
+  /*position: absolute;*/ }
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  #canvas .svg {
+    width: 100%; }
+    #canvas .svg .axis path, #canvas .svg .axis line {
+      fill: none;
+      stroke: 1px solid white;
+      shape-rendering: crispEdges;
+      stroke-width: 2px; }
+    #canvas .svg .axis.wcm-label {
+      font-weight: bold;
+      font-size: 12px; }
+    #canvas .svg .quadrant_border {
+      stroke: none;
+      fill: none; }
+    #canvas .svg .circle {
+      fill: orange; }
+    #canvas .svg .circle-hover {
+      fill: blue;
+      cursor: pointer; }
+    #canvas .svg .circle-selected {
+      fill: darkblue; }
+    #canvas .svg .wcm-label {
+      font-size: 12px;
+      font-weight: bold; }
+    #canvas .svg .wcm-label-hover {
+      fill: blue;
+      cursor: pointer; }
+    #canvas .svg .wcm-label-selected {
+      fill: darkblue; }
+    #canvas .svg .divider {
+      stroke: white;
+      fill: none;
+      shape-rendering: crispEdges;
+      stroke-width: 2px; }
+    #canvas .svg .quad-label {
+      font-size: 20px;
+      font-weight: bold;
+      fill: lightGrey; }
+
+.thumbnails {
+  margin-top: 10px; }
+
+.well {
+  padding: 0px; }
+
+.sidebar-inner {
+  padding: 20px; }
+
+img {
+  vertical-align: baseline; }
+
+/*# sourceMappingURL=base.css.map */
